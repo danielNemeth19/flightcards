@@ -67,6 +67,33 @@ p {
 	text-align: center;
 }
 
+.flight__data__length {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.score {
+	display: flex;
+	flex-direction: column;
+}
+
+.score div {
+	font-size: 0.8em;
+	margin-top: 15px;
+}
+
+.score span {
+	text-align: center;
+	font-size: 0.5em;
+}
+
+.flight-time {
+	text-align: center;
+	font-size: 0.5em;
+}
+
 .arrow {
 	zoom: 2;
 }
