@@ -1,5 +1,6 @@
 :root {
-    --font-family: 'Manrope', sans-serif;
+    --font-family: "Ubuntu Mono", monospace;
+    /* --font-family: 'Manrope', sans-serif;*/
     --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
     --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
     --color-bg: #040C18;
@@ -15,9 +16,27 @@ body {
 	background: var(--color-bg);
 }
 
+h1 {
+	font-size: 1.5em;
+	margin-block-start: 15px;
+	margin-block-end: 15px;
+}
+
 p {
 	margin-block-start: 15px;
 	margin-block-end: 15px;
+}
+
+
+.title, .heading {
+	color: var(--color-subtext);
+	text-align: center;
+}
+
+.itinery__section {
+	display: flex;
+	flex-basis: 35%;
+	flex-direction: column;
 }
 
 #container {
@@ -28,7 +47,6 @@ p {
 	flex-wrap: wrap;
 }
 .wrapper {
-	flex-basis: 35%;
 	background: var(--gradient-text);
 	border-radius: 0.3125rem;
 	box-shadow: 5px 5px 4px 2px #0003;
