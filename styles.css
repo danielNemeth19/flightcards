@@ -39,18 +39,28 @@ p {
 	width:80%;
 	display: flex;
 	flex-wrap: wrap;
+	border: red;
 }
 
 .option__section {
 	display: flex;
 	flex-basis: 35%;
 	flex-direction: column;
+	border: 2px solid var(--color-text);
 }
 
 .option-header {
+	margin: 5px;
+	background: var(--gradient-bar);
+	border-radius: 0.3125rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.option-data{
+	color: var(--color-footer)
 }
 
 .wrapper {
@@ -99,18 +109,18 @@ p {
 	flex-direction: column;
 }
 
-.carrier__info {
+.carrier__info, .summary__info {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.carrier__info div {
+.carrier__info div, .summary__info div {
 	font-size: 0.8em;
 	margin-top: 15px;
 }
 
-.carrier__info span {
+.carrier__info span, .summary__info span {
 	text-align: center;
 	font-size: 0.5em;
 }
