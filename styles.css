@@ -28,8 +28,14 @@ p {
 }
 
 
-.title, .heading {
+.title {
 	color: var(--color-subtext);
+	text-align: center;
+}
+
+.heading {
+	color: var(--color-footer);
+	font-size: 1.5em;
 	text-align: center;
 }
 
@@ -49,7 +55,17 @@ p {
 	border: 2px solid var(--color-text);
 }
 
-.option-header {
+.option-header-1 {
+	margin: 5px;
+	background: var(--gradient-bar);
+	border-radius: 0.3125rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.option-header-2 {
 	margin: 5px;
 	background: var(--gradient-bar);
 	border-radius: 0.3125rem;
@@ -115,9 +131,13 @@ p {
 	align-items: center;
 }
 
-.carrier__info div, .summary__info div {
+.carrier__info div {
 	font-size: 0.8em;
 	margin-top: 15px;
+}
+.summary__info {
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .carrier__info span, .summary__info span {
